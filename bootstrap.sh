@@ -36,6 +36,8 @@ sudo ln -sf /etc/nginx/sites-available/vhost /etc/nginx/sites-enabled/vhost
 
 sudo service nginx restart
 
+sudo apt-get -y install imagemagick
+
 printf "Setting up alias"
 if [ -e ~/.bash_aliases ]; then
 	sudo rm ~/.bash_aliases
